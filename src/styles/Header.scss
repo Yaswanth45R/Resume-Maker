@@ -1,0 +1,14 @@
+@import 'config';
+
+.header{
+    background-color: $primary-color;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+    &__text{
+        color: $text-color-light;
+        padding-left: 15px;
+    }
+}
+
